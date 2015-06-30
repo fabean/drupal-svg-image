@@ -1,0 +1,8 @@
+<?php
+/**
+ * Implements hook_field_formatter_info_alter()
+*/
+
+function svg_image_field_formatter_info_alter(&$info) {
+    $info['image']['field types'][] = 'file';
+}
